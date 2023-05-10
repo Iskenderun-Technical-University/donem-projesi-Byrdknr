@@ -30,6 +30,8 @@ namespace byrdknr_hastane_otomasyon
             {
                 if (textBox1.Text == tcno && textBox2.Text ==sifre)
                 {
+                    Form2 frm2 = new Form2();
+                    frm2.Show();
                     this.Hide();
                 }
                 else
@@ -50,6 +52,14 @@ namespace byrdknr_hastane_otomasyon
         private void Form1_FormClosed(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void Form1_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode==Keys.Enter)
+            {
+                girisBtn.PerformClick();
+            }
         }
     }
 }
