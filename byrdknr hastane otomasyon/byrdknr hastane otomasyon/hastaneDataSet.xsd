@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="hastaneDataSet" targetNamespace="http://tempuri.org/hastaneDataSet.xsd" xmlns:mstns="http://tempuri.org/hastaneDataSet.xsd" xmlns="http://tempuri.org/hastaneDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="hastaneConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="hastaneConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.byrdknr_hastane_otomasyon.Properties.Settings.GlobalReference.Default.hastaneConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="hasta kayıtTableAdapter" GeneratorDataComponentClassName="hasta_kayıtTableAdapter" Name="hasta kayıt" UserDataComponentName="hasta kayıtTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="hastaneConnectionString (Settings)" DbObjectName="hastane.dbo.[hasta kayıt]" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT [HASTA ADI SOYADI], [T.C. NUMARASI], POLİKİNLİK, [DOKTOR ADI], [RANDEVU SAATİ] FROM dbo.[hasta kayıt]</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="HASTA ADI SOYADI" DataSetColumn="HASTA ADI SOYADI" />
+              <Mapping SourceColumn="T.C. NUMARASI" DataSetColumn="T_C_ NUMARASI" />
+              <Mapping SourceColumn="POLİKİNLİK" DataSetColumn="POLİKİNLİK" />
+              <Mapping SourceColumn="DOKTOR ADI" DataSetColumn="DOKTOR ADI" />
+              <Mapping SourceColumn="RANDEVU SAATİ" DataSetColumn="RANDEVU SAATİ" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="hastaneDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_UserDSName="hastaneDataSet" msprop:Generator_DataSetName="hastaneDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="hasta_x0020_kayıt" msprop:Generator_RowEvHandlerName="hasta_kayıtRowChangeEventHandler" msprop:Generator_RowDeletedName="hasta_kayıtRowDeleted" msprop:Generator_RowDeletingName="hasta_kayıtRowDeleting" msprop:Generator_RowEvArgName="hasta_kayıtRowChangeEvent" msprop:Generator_TablePropName="hasta_kayıt" msprop:Generator_RowChangedName="hasta_kayıtRowChanged" msprop:Generator_RowChangingName="hasta_kayıtRowChanging" msprop:Generator_TableClassName="hasta_kayıtDataTable" msprop:Generator_RowClassName="hasta_kayıtRow" msprop:Generator_TableVarName="tablehasta_kayıt" msprop:Generator_UserTableName="hasta kayıt">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="HASTA_x0020_ADI_x0020_SOYADI" msprop:Generator_ColumnPropNameInRow="HASTA_ADI_SOYADI" msprop:Generator_ColumnPropNameInTable="HASTA_ADI_SOYADIColumn" msprop:Generator_ColumnVarNameInTable="columnHASTA_ADI_SOYADI" msprop:Generator_UserColumnName="HASTA ADI SOYADI">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="T_C__x0020_NUMARASI" msprop:Generator_ColumnPropNameInRow="T_C__NUMARASI" msprop:Generator_ColumnPropNameInTable="T_C__NUMARASIColumn" msprop:Generator_ColumnVarNameInTable="columnT_C__NUMARASI" msprop:Generator_UserColumnName="T_C_ NUMARASI" type="xs:int" />
+              <xs:element name="POLİKİNLİK" msprop:Generator_ColumnPropNameInRow="POLİKİNLİK" msprop:Generator_ColumnPropNameInTable="POLİKİNLİKColumn" msprop:Generator_ColumnVarNameInTable="columnPOLİKİNLİK" msprop:Generator_UserColumnName="POLİKİNLİK">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DOKTOR_x0020_ADI" msprop:Generator_ColumnPropNameInRow="DOKTOR_ADI" msprop:Generator_ColumnPropNameInTable="DOKTOR_ADIColumn" msprop:Generator_ColumnVarNameInTable="columnDOKTOR_ADI" msprop:Generator_UserColumnName="DOKTOR ADI">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RANDEVU_x0020_SAATİ" msprop:Generator_ColumnPropNameInRow="RANDEVU_SAATİ" msprop:Generator_ColumnPropNameInTable="RANDEVU_SAATİColumn" msprop:Generator_ColumnVarNameInTable="columnRANDEVU_SAATİ" msprop:Generator_UserColumnName="RANDEVU SAATİ" type="xs:duration" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

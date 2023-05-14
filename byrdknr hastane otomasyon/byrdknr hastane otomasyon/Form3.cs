@@ -8,21 +8,22 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient; // sql baglantısı
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+//using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace byrdknr_hastane_otomasyon
 {
     public partial class Form3 : Form
     {
-        SqlConnection baglanti;
+        /*SqlConnection baglanti;
         SqlCommand komut;
         SqlDataAdapter adaptor;
-        public DataSet ds = new DataSet();
+        public DataSet ds = new DataSet();*/
 
         public Form3()
         {
             InitializeComponent();
         }
+        public string conString = "Data Source=BYRDKNR\\SQLEXPRESS;Initial Catalog=byy;Integrated Security=True";
 
         private void Form3_Load(object sender, EventArgs e)
         {
@@ -30,7 +31,7 @@ namespace byrdknr_hastane_otomasyon
         }
         public void textTemizle()
         {
-            for(int i = 0; i < this.Controls.Count;i++)
+            for (int i = 0; i < this.Controls.Count; i++)
             {
                 if (this.Controls[i] is System.Windows.Forms.ComboBox) this.Controls[i].Text = "";
             }
@@ -45,9 +46,18 @@ namespace byrdknr_hastane_otomasyon
 
         private void button2_Click(object sender, EventArgs e)
         {// randevu kayıt buttonu
-            
+            SqlConnection baglanti = new SqlConnection(conString);
+            baglanti.Open();
+            if (baglanti.State == System.Data.ConnectionState.Open)
+            {
+                string query = "insert into Table_1 values('" + textBox1.Text + "','" + textBox2.Text + "','" +comboBox1.Text+ "','" +comboBox2.Text+ "','" +dateTimePicker1.Text+ "','" +dateTimePicker2.Text+ "')";
+                SqlCommand komut= new SqlCommand(query,baglanti);
+                komut.ExecuteNonQuery();
+            }
             MessageBox.Show("RANDEVUNUZ BAŞARIYLA OLUŞTURULMUŞTUR", "RANDEVU BİLGİ", MessageBoxButtons.OK, MessageBoxIcon.Information);
             textTemizle();
+            textBox1.Clear();
+            textBox2.Clear();
         }
 
         void doktorBolumEkle()
@@ -64,7 +74,7 @@ namespace byrdknr_hastane_otomasyon
             comboBox2.Items.Clear();
             string selectedItem = comboBox1.SelectedItem.ToString();
 
-            switch(selectedItem)
+            switch (selectedItem)
             {
                 case "Pedoloji":
                     comboBox2.Items.Add("Kasım Ada");
@@ -84,7 +94,7 @@ namespace byrdknr_hastane_otomasyon
                 case "Nefroloji":
                     comboBox2.Items.Add("Enes Belibağlı");
                     comboBox2.Items.Add("Yusuf Gümüşbaş");
-                      
+
                     break;
                 case "Göğüs Hastalıkları":
                     comboBox2.Items.Add("Salih Kaçar");

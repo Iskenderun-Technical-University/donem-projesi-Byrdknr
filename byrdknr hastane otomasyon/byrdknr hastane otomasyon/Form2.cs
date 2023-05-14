@@ -31,6 +31,7 @@ namespace byrdknr_hastane_otomasyon
 
         private void button2_Click(object sender, EventArgs e)
         {
+            
 
         }
     }
