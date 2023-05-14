@@ -31,8 +31,9 @@ namespace byrdknr_hastane_otomasyon
 
         private void button2_Click(object sender, EventArgs e)
         {
-            
-
+            Form4 frm4 = new Form4();    
+            frm4.Show();
+            this.Hide();
         }
     }
 }

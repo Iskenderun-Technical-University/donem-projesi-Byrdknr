@@ -35,3 +35,4 @@ C:\Users\kyrdk\OneDrive\Masaüstü\Yeni klasör\byrdknr hastane otomasyon\byrdkn
 C:\Users\kyrdk\OneDrive\Masaüstü\Yeni klasör\byrdknr hastane otomasyon\byrdknr hastane otomasyon\obj\Debug\byrdknr hastane otomasyon.csproj.CoreCompileInputs.cache
 C:\Users\kyrdk\OneDrive\Masaüstü\Yeni klasör\byrdknr hastane otomasyon\byrdknr hastane otomasyon\obj\Debug\byrdknr hastane otomasyon.exe
 C:\Users\kyrdk\OneDrive\Masaüstü\Yeni klasör\byrdknr hastane otomasyon\byrdknr hastane otomasyon\obj\Debug\byrdknr hastane otomasyon.pdb
+C:\Users\kyrdk\OneDrive\Masaüstü\Yeni klasör\byrdknr hastane otomasyon\byrdknr hastane otomasyon\obj\Debug\byrdknr_hastane_otomasyon.Form4.resources

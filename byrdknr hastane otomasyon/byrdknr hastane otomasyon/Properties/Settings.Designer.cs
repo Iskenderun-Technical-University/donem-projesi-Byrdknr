@@ -32,5 +32,15 @@ namespace byrdknr_hastane_otomasyon.Properties {
                 return ((string)(this["hastaneConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=BYRDKNR\\SQLEXPRESS;Initial Catalog=byy;Integrated Security=True")]
+        public string byyConnectionString {
+            get {
+                return ((string)(this["byyConnectionString"]));
+            }
+        }
     }
 }
