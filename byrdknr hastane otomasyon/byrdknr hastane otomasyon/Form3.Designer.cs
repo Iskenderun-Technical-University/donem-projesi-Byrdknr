@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form3));
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -47,7 +48,7 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.Khaki;
-            this.button1.Location = new System.Drawing.Point(24, 304);
+            this.button1.Location = new System.Drawing.Point(12, 316);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(152, 58);
             this.button1.TabIndex = 0;
@@ -58,7 +59,7 @@
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.GreenYellow;
-            this.button2.Location = new System.Drawing.Point(418, 304);
+            this.button2.Location = new System.Drawing.Point(418, 316);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(152, 58);
             this.button2.TabIndex = 1;
@@ -69,6 +70,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.label1.Location = new System.Drawing.Point(432, 31);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(101, 16);
@@ -78,6 +80,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.label2.Location = new System.Drawing.Point(235, 129);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(48, 16);
@@ -112,6 +115,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.label3.Location = new System.Drawing.Point(45, 129);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(74, 16);
@@ -121,6 +125,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.label4.Location = new System.Drawing.Point(45, 31);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(131, 16);
@@ -130,6 +135,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.label6.Location = new System.Drawing.Point(232, 31);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(105, 16);
@@ -139,6 +145,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.label7.Location = new System.Drawing.Point(415, 129);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(116, 16);
@@ -172,6 +179,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(582, 386);
             this.Controls.Add(this.dateTimePicker2);
             this.Controls.Add(this.textBox2);

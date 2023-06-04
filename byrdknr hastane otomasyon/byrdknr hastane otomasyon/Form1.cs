@@ -61,5 +61,10 @@ namespace byrdknr_hastane_otomasyon
                 girisBtn.PerformClick();
             }
         }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }

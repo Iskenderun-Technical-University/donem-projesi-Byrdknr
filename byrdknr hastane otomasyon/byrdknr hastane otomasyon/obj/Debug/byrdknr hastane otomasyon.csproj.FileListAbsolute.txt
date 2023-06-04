@@ -36,3 +36,17 @@ C:\Users\kyrdk\OneDrive\Masaüstü\Yeni klasör\byrdknr hastane otomasyon\byrdkn
 C:\Users\kyrdk\OneDrive\Masaüstü\Yeni klasör\byrdknr hastane otomasyon\byrdknr hastane otomasyon\obj\Debug\byrdknr hastane otomasyon.exe
 C:\Users\kyrdk\OneDrive\Masaüstü\Yeni klasör\byrdknr hastane otomasyon\byrdknr hastane otomasyon\obj\Debug\byrdknr hastane otomasyon.pdb
 C:\Users\kyrdk\OneDrive\Masaüstü\Yeni klasör\byrdknr hastane otomasyon\byrdknr hastane otomasyon\obj\Debug\byrdknr_hastane_otomasyon.Form4.resources
+C:\Users\kyrdk\OneDrive\Masaüstü\by\byrdknr hastane otomasyon\byrdknr hastane otomasyon\bin\Debug\byrdknr hastane otomasyon.exe.config
+C:\Users\kyrdk\OneDrive\Masaüstü\by\byrdknr hastane otomasyon\byrdknr hastane otomasyon\bin\Debug\byrdknr hastane otomasyon.exe
+C:\Users\kyrdk\OneDrive\Masaüstü\by\byrdknr hastane otomasyon\byrdknr hastane otomasyon\bin\Debug\byrdknr hastane otomasyon.pdb
+C:\Users\kyrdk\OneDrive\Masaüstü\by\byrdknr hastane otomasyon\byrdknr hastane otomasyon\obj\Debug\byrdknr hastane otomasyon.csproj.AssemblyReference.cache
+C:\Users\kyrdk\OneDrive\Masaüstü\by\byrdknr hastane otomasyon\byrdknr hastane otomasyon\obj\Debug\byrdknr hastane otomasyon.csproj.SuggestedBindingRedirects.cache
+C:\Users\kyrdk\OneDrive\Masaüstü\by\byrdknr hastane otomasyon\byrdknr hastane otomasyon\obj\Debug\byrdknr_hastane_otomasyon.Form1.resources
+C:\Users\kyrdk\OneDrive\Masaüstü\by\byrdknr hastane otomasyon\byrdknr hastane otomasyon\obj\Debug\byrdknr_hastane_otomasyon.Form2.resources
+C:\Users\kyrdk\OneDrive\Masaüstü\by\byrdknr hastane otomasyon\byrdknr hastane otomasyon\obj\Debug\byrdknr_hastane_otomasyon.Form3.resources
+C:\Users\kyrdk\OneDrive\Masaüstü\by\byrdknr hastane otomasyon\byrdknr hastane otomasyon\obj\Debug\byrdknr_hastane_otomasyon.Form4.resources
+C:\Users\kyrdk\OneDrive\Masaüstü\by\byrdknr hastane otomasyon\byrdknr hastane otomasyon\obj\Debug\byrdknr_hastane_otomasyon.Properties.Resources.resources
+C:\Users\kyrdk\OneDrive\Masaüstü\by\byrdknr hastane otomasyon\byrdknr hastane otomasyon\obj\Debug\byrdknr hastane otomasyon.csproj.GenerateResource.cache
+C:\Users\kyrdk\OneDrive\Masaüstü\by\byrdknr hastane otomasyon\byrdknr hastane otomasyon\obj\Debug\byrdknr hastane otomasyon.csproj.CoreCompileInputs.cache
+C:\Users\kyrdk\OneDrive\Masaüstü\by\byrdknr hastane otomasyon\byrdknr hastane otomasyon\obj\Debug\byrdknr hastane otomasyon.exe
+C:\Users\kyrdk\OneDrive\Masaüstü\by\byrdknr hastane otomasyon\byrdknr hastane otomasyon\obj\Debug\byrdknr hastane otomasyon.pdb

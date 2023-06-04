@@ -35,5 +35,10 @@ namespace byrdknr_hastane_otomasyon
             frm4.Show();
             this.Hide();
         }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -29,21 +29,22 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form4));
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.byyDataSet = new byrdknr_hastane_otomasyon.byyDataSet();
-            this.table1BindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.table_1TableAdapter = new byrdknr_hastane_otomasyon.byyDataSetTableAdapters.Table_1TableAdapter();
             this.hASTAADISOYADIDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tCNODataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.pOLİKİNLİKLERDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dOKTORADIDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.rANDEVUTARİHİDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.sAATİDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.table1BindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.byyDataSet = new byrdknr_hastane_otomasyon.byyDataSet();
+            this.table_1TableAdapter = new byrdknr_hastane_otomasyon.byyDataSetTableAdapters.Table_1TableAdapter();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.byyDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.table1BindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.byyDataSet)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridView1
@@ -64,20 +65,6 @@
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(776, 356);
             this.dataGridView1.TabIndex = 0;
-            // 
-            // byyDataSet
-            // 
-            this.byyDataSet.DataSetName = "byyDataSet";
-            this.byyDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // table1BindingSource
-            // 
-            this.table1BindingSource.DataMember = "Table_1";
-            this.table1BindingSource.DataSource = this.byyDataSet;
-            // 
-            // table_1TableAdapter
-            // 
-            this.table_1TableAdapter.ClearBeforeFill = true;
             // 
             // hASTAADISOYADIDataGridViewTextBoxColumn
             // 
@@ -127,6 +114,20 @@
             this.sAATİDataGridViewTextBoxColumn.Name = "sAATİDataGridViewTextBoxColumn";
             this.sAATİDataGridViewTextBoxColumn.Width = 125;
             // 
+            // table1BindingSource
+            // 
+            this.table1BindingSource.DataMember = "Table_1";
+            this.table1BindingSource.DataSource = this.byyDataSet;
+            // 
+            // byyDataSet
+            // 
+            this.byyDataSet.DataSetName = "byyDataSet";
+            this.byyDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // table_1TableAdapter
+            // 
+            this.table_1TableAdapter.ClearBeforeFill = true;
+            // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.SystemColors.Info;
@@ -153,6 +154,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -161,8 +163,8 @@
             this.Text = "RANDEVULARIM";
             this.Load += new System.EventHandler(this.Form4_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.byyDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.table1BindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.byyDataSet)).EndInit();
             this.ResumeLayout(false);
 
         }

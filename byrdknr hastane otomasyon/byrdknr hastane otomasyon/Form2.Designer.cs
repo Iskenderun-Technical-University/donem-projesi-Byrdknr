@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             this.grsbtn = new System.Windows.Forms.Button();
             this.randevubtn = new System.Windows.Forms.Button();
             this.randevualbtn = new System.Windows.Forms.Button();
@@ -48,7 +49,7 @@
             // randevubtn
             // 
             this.randevubtn.BackColor = System.Drawing.Color.Yellow;
-            this.randevubtn.Location = new System.Drawing.Point(114, 143);
+            this.randevubtn.Location = new System.Drawing.Point(114, 140);
             this.randevubtn.Name = "randevubtn";
             this.randevubtn.Size = new System.Drawing.Size(169, 74);
             this.randevubtn.TabIndex = 4;
@@ -72,6 +73,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(402, 357);
             this.Controls.Add(this.grsbtn);
             this.Controls.Add(this.randevubtn);
@@ -79,6 +82,7 @@
             this.Name = "Form2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ANA SAYFA";
+            this.Load += new System.EventHandler(this.Form2_Load);
             this.ResumeLayout(false);
 
         }
