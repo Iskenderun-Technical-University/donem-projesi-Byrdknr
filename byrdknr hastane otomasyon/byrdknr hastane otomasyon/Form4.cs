@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace byrdknr_hastane_otomasyon
 {
-    public partial class Form4 : Form
+    public partial class Form4 : Form 
     {
         public Form4()
         {
